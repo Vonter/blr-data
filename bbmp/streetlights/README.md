@@ -3,7 +3,9 @@
 From BBMP tenders issued in 2024 (`BBMP/2024-25/SE0976` and `BBMP/2024-25/SE0979`) as part of *Implementation of Energy Efficiency Project for Streetlights*
 
 * `parse.sh` converts PDFs to CSVs
-* `process.sh` inside `Processing/` does basic cleanup and output GeoJSONs and a FlatGeobuf with geospatial data
+* `process.sh` inside `Processing/` does basic cleanup and outputs geospatial data
+
+[`Streetlights.fgb`](Processing/Streetlights.fgb) contains the final geospatial data.
 
 ### ogrinfo
 
